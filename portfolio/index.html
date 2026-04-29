@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MORNING WORLD</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="#">M<span>W</span></a>
+  <ul class="nav-links">
+    <li><a href="#cards">Dishes</a></li>
+    <li><a href="#map">Explore</a></li>
+    <li><a href="#recipe">Recipes</a></li>
+  </ul>
+  <div class="nav-social">
+    <a href="#"><img src="assets/images/icon-ig.png" alt="ig"></a>
+    <a href="#"><img src="assets/images/icon-fb.png" alt="fb"></a>
+    <a href="#"><img src="assets/images/icon-tw.png" alt="tw"></a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-left">
+    <h1 class="hero-title">MORNING<br><em>WORLD</em></h1>
+    <p class="hero-desc">Every morning, somewhere in the world, a completely different table is set.</p>
+    <a href="#" class="btn-primary">Start the Journey</a>
+  </div>
+
+  <div class="hero-right">
+    <div class="hero-tile japan">
+      <div class="tile-text">
+        <div class="tile-country">Japan</div>
+        <div class="tile-dish">Ichiju Sansai</div>
+      </div>
+    </div>
+    <div class="hero-tile philippines">
+      <div class="tile-text">
+        <div class="tile-country">Philippines</div>
+        <div class="tile-dish">Tapsilog</div>
+      </div>
+    </div>
+    <div class="hero-tile usa">
+      <div class="tile-text">
+        <div class="tile-country">USA</div>
+        <div class="tile-dish">Pancakes & Bacon</div>
+      </div>
+    </div>
+    <div class="hero-tile uk">
+      <div class="tile-text">
+        <div class="tile-country">UK</div>
+        <div class="tile-dish">Full English Breakfast</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARDS -->
+<section id="cards" class="cards-section">
+  <div class="cards-inner">
+    <div class="section-header">
+      <div class="section-label">This Week's Picks</div>
+      <h2 class="section-title">Featured Breakfasts</h2>
+    </div>
+    <div class="cards-grid">
+      <div class="card card-featured" id="jp">
+        <div class="card-img jp-img"></div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-flag">🇯🇵</span>
+            <span class="card-country">Japan</span>
+            <span class="card-tag">Light</span>
+          </div>
+          <h3 class="card-title">Japanese Breakfast Set</h3>
+          <p class="card-desc">Miso soup, rice, grilled fish, pickles — a quiet, nourishing ritual that has anchored Japanese mornings for centuries.</p>
+          <a href="#" class="card-link">Explore →</a>
+        </div>
+      </div>
+      <div class="card" id="ph">
+        <div class="card-img ph-img"></div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-flag">🇵🇭</span>
+            <span class="card-country">Philippines</span>
+            <span class="card-tag">Hearty</span>
+          </div>
+          <h3 class="card-title">Tapsilog</h3>
+          <p class="card-desc">Cured beef, garlic fried rice, and a sunny-side-up egg. The Filipino morning trifecta.</p>
+          <a href="#" class="card-link">Explore →</a>
+        </div>
+      </div>
+      <div class="card" id="usa">
+        <div class="card-img usa-img"></div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-flag">🇺🇸</span>
+            <span class="card-country">USA</span>
+            <span class="card-tag">Classic</span>
+          </div>
+          <h3 class="card-title">Pancakes & Bacon</h3>
+          <p class="card-desc">Fluffy stacks drowned in maple syrup, crispy bacon on the side. The quintessential American diner morning.</p>
+          <a href="#" class="card-link">Explore →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED DISH -->
+<section class="featured-section">
+  <div class="featured-inner">
+    <div class="featured-text">
+      <div class="section-label">Featured Dish</div>
+      <h2 class="section-title">Thai Jok</h2>
+      <br>
+      <p class="featured-desc">A warm, silky rice porridge simmered low and slow, topped with ginger slivers, a soft-boiled egg, crispy garlic, and fresh herbs. Thailand's gentlest way to begin the day.</p>
+      <div class="featured-pills">
+        <span class="pill">🇹🇭 Thailand</span>
+        <span class="pill">Light</span>
+        <span class="pill">Warm</span>
+        <span class="pill">Vegan-friendly</span>
+      </div>
+      <a href="#" class="btn-secondary">See Full Recipe →</a>
+    </div>
+    <div class="featured-visual">
+      <img src="assets/images/thailand-breakfast.jpg" alt="Thai Jok" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <div class="featured-placeholder"><img src="assets/images/Thailand breakfast.jpg" alt="thailand-breakfast"></div>
+    </div>
+  </div>
+</section>
+
+<!-- MAP / EXPLORE -->
+<section id="map" class="explore-section">
+  <div class="explore-inner">
+    <div class="explore-header">
+      <div class="section-label">World Tour</div>
+      <h2 class="section-title">Explore by Country</h2>
+      <p class="explore-desc">195 countries. Thousands of morning rituals. Where do you want to wake up today?</p>
+    </div>
+    <form class="search-form">
+      <input type="text" placeholder="Search Country..." />
+      <button type="submit">🔍</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-logo">MORNING<br>WORLD</div>
+        <p class="footer-tagline">© 2026 Morning World.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#">Asian Breakfasts</a></li>
+            <li><a href="#">European Breakfasts</a></li>
+            <li><a href="#">Middle East & Africa</a></li>
+            <li><a href="#">The Americas</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Content</h4>
+          <ul>
+            <li><a href="#">All Recipes</a></li>
+            <li><a href="#">Videos</a></li>
+            <li><a href="#">Podcast</a></li>
+            <li><a href="#">Community</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
